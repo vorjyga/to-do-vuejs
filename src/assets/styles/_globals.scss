@@ -1,0 +1,61 @@
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
+@import "./variables";
+
+button {
+  border: none;
+  outline: none;
+  &.main-btn {
+    background-color: $mainColor;
+    &:focus {
+      &:active {
+        background-color: darken($mainColor, 10%);
+      }
+    }
+  }
+  &.add-task {
+    padding: 1rem 2rem;
+    color: white;
+    cursor: pointer;
+  }
+}
+
+.form-input {
+  border: 2px solid lightgray;
+  padding: 5px;
+}
+::placeholder {
+  color: $placeholder;
+}
+
+.text-bold {
+  font-weight: 600;
+}
+.m-b-20 {
+  margin: 0 0 20px 0;
+}
+.task-block {
+  margin: 20px;
+  .header {
+    text-align: start;
+    font-weight: 600;
+  }
+}
+
+body {
+  margin: 0;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  display: none;
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance:textfield; /* Firefox */
+}
+textarea {
+  resize: none;
+}
+h1 {
+  margin: 0;
+}

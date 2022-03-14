@@ -1,0 +1,18 @@
+{
+  "PAWATASK": "PawaTask",
+  "BUTTON_ADD": "Add a new task",
+  "NO_TASK": "You do not have any tasks",
+  "ADD_TASK": "Add a new task",
+  "NEW_TASK": "New Task",
+  "EDIT_TASK": "Edit task",
+  "TITLE": "Title",
+  "DESCRIPTION": "Description",
+  "SET_DUE_DATE": "Set due date",
+  "PRIORITY": "Priority",
+  "COMMENTS": "Comments",
+  "LOW": "Low",
+  "MEDIUM": "Medium",
+  "HIGH": "High",
+  "DATE": "Date",
+  "ADD_COMMENT": "Add Comment"
+}
